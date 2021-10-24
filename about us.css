@@ -1,0 +1,286 @@
+body{
+    background-color:lightsteelblue;
+    font-size: 15px;
+    /* width: 100%; */
+    margin: 0px;
+    padding: 0px;
+    border-style: solid;
+}
+
+
+.cafe-name{
+    font-size: 4em;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px 0px;
+    background-color:rgb(36, 18, 73);
+    color: silver;
+    border-bottom-style: solid;
+    border-bottom-color:orangered;
+ 
+}
+
+/* Content-1 */
+.content-1{
+    background-image: url("image6.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.content-1 div{
+    color:rgb(216, 209, 197);
+    text-align: justify;
+    line-height: 60px;
+    margin-top: 30px;
+    font-size: 3em;
+    width: 70%;
+}
+
+
+
+
+/*double-paragraph */
+.double-paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    margin-top:20px ;
+}
+.content-2{
+    font-size: 1.5em;
+    border-style: solid;
+    text-align: justify;
+    width: 30%;
+    padding: 15px;
+}
+.content-3{
+    font-size: 1.5em;
+    background-color:rgb(143, 101, 228);
+    color: white;
+    text-align: justify;
+    width: 30%;
+    padding: 15px;
+}
+
+
+
+/* last-section */
+.last-section{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(44, 43, 44);
+    color: white;
+    font-size: 1em;
+    padding: 20px 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+@media screen and (min-width:801px) and (max-width:1150px){
+    .content-1{
+        background-image: url("image6.jpg");
+        background-repeat: no-repeat;
+        height: 450px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+        
+    }
+    
+    .content-1 div{
+        color:rgb(216, 209, 197);
+        text-align:start;
+        line-height: 50px;
+        margin-top: 35px;
+        font-size: 2.5em;
+        width: 90%;
+    }
+    
+  
+}
+
+
+@media screen and (min-width:351px) and (max-width:800px) {
+ 
+    body{
+        background-color:lightsteelblue;
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    .cafe-name{
+        font-size: 2.5em;
+        font-weight: 900;
+        text-align: center;
+        text-decoration: underline;
+        padding: 20px 0px;
+        background-color:rgb(36, 18, 73);
+        color: silver;
+        border-bottom-style: solid;
+        border-bottom-color:orangered;
+    }
+    
+    
+    /* Content-1 */
+    .content-1{
+        background-image: url("image6.jpg");
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+        
+    }
+    
+    .content-1 div{
+        color:rgb(216, 209, 197);
+        text-align:start;
+        line-height: 40px;
+        margin-top: 35px;
+        font-size: 2.1em;
+        width: 90%;
+    }
+    
+    
+    
+    
+    /*double-paragraph */
+    .double-paragraph{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top:20px ;
+    }
+    .content-2{
+        font-size: 1.7em;
+        border-style: solid;
+        text-align: justify;
+        width: 70%;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .content-3{
+        font-size: 1.7em;
+        background-color:rgb(143, 101, 228);
+        color: white;
+        text-align: justify;
+        width: 80%;
+        padding: 15px;
+    }
+    
+    
+    
+    /* last-section */
+    .last-section{
+        height: 20px;
+        width: 100%;
+        background-color: rgb(44, 43, 44);
+        color: white;
+        font-size: 0.8em;
+        padding: 10px 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:350px) {
+ 
+    body{
+        background-color:lightsteelblue;
+        font-size: 10px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    .cafe-name{
+        font-size: 2.5em;
+        font-weight: 900;
+        text-align: center;
+        text-decoration: underline;
+        padding: 20px 0px;
+        background-color:rgb(36, 18, 73);
+        color: silver;
+        border-bottom-style: solid;
+        border-bottom-color:orangered;
+     
+    }
+    
+    /* Content-1 */
+    .content-1{
+        background-image: url("image6.jpg");
+        background-repeat: no-repeat;
+        height: 630px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+        
+    }
+    
+    .content-1 div{
+        color:rgb(216, 209, 197);
+        text-align:start;
+        line-height: 35px;
+        margin-top: 35px;
+        font-size: 2.1em;
+        width: 98%;
+    }
+    
+    
+    
+    
+    /*double-paragraph */
+    .double-paragraph{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        margin-top:20px ;
+    }
+    .content-2{
+        font-size: 2em;
+        border-style: solid;
+        text-align: justify;
+        width: 80%;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+    .content-3{
+        font-size: 2em;
+        background-color:rgb(143, 101, 228);
+        color: white;
+        text-align: justify;
+        width: 90%;
+        padding: 5px;
+    }
+    
+    
+    
+    /* last-section */
+    .last-section{
+        height: 20px;
+        width: 100%;
+        background-color: rgb(44, 43, 44);
+        color: white;
+        font-size: 0.8em;
+        padding: 8px 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+

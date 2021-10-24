@@ -1,0 +1,33 @@
+body{
+    background-color: darkgrey;
+}
+.top-heading{
+    text-align: center;
+    border-bottom-style:double ;
+}
+.data{
+    font-weight: 600;
+}
+.box:hover{
+    border-width:medium;
+    border-color: saddlebrown;
+}
+
+@media screen and (max-width:500px){
+    body{
+        font-size: 12px;
+    }
+    .top-heading{
+        text-align: start;
+    }
+    .data{
+        font-weight: 600;
+        }
+    .box:hover{
+        border-width:medium;
+        border-color: saddlebrown;
+    }
+    
+    
+    
+}
