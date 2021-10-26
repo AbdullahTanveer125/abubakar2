@@ -136,7 +136,7 @@ body{
     .content-1{
         background-image: url("image6.jpg");
         background-repeat: no-repeat;
-        height: 600px;
+        height: 620px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -283,3 +283,4 @@ body{
         text-align: center;
     }
 }
+
