@@ -136,7 +136,7 @@ body{
     .content-1{
         background-image: url("image6.jpg");
         background-repeat: no-repeat;
-        height: 620px;
+        height: 600px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -224,7 +224,7 @@ body{
     .content-1{
         background-image: url("image6.jpg");
         background-repeat: no-repeat;
-        height: 630px;
+        height: 650px;
         width: 100%;
         display: flex;
         justify-content: center;
